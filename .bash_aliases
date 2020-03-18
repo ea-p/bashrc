@@ -33,3 +33,7 @@ alias untar='tar -zxvf '
 
 #Clear
 alias c='clear'
+
+#cd into $HOME
+
+cd "$HOME"
