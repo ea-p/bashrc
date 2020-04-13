@@ -9,11 +9,11 @@ fi
 # Initialize aliases and functions
 ##################################
 if [ -f ~/.bashrc_aliases ]; then
-    . ~/.bashrc_aliases   
+    source ~/.bashrc_aliases   
 fi
 
 if [ -f ~/.bashrc_functions ]; then
-    . ~/.bashrc_functions   
+    source ~/.bashrc_functions   
 fi
 
 
