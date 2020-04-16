@@ -8,12 +8,12 @@ fi
 ##################################
 # Initialize aliases and functions
 ##################################
-if [ -f ~/.bashrc_aliases ]; then
-    . ~/.bashrc_aliases   
+if [ -f $PWD/.bashrc_aliases ]; then
+    . $PWD/.bashrc_aliases   
 fi
 
-if [ -f ~/.bashrc_functions ]; then
-    . ~/.bashrc_functions   
+if [ -f $PWD/.bashrc_functions ]; then
+    . $PWD/.bashrc_functions   
 fi
 
 
