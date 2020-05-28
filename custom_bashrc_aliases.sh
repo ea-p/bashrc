@@ -17,6 +17,10 @@ alias mkdir='mkdir -pv'
 #Alias sudo
 alias sudo='sudo '
 
+#install now aliases
+alias yumn='yum isntall -y '
+alias dnfn='dnf install -y '
+
 #List all
 alias ll='ls -lah --color=auto'
 
