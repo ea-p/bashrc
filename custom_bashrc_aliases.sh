@@ -18,7 +18,13 @@ alias mkdir='mkdir -pv'
 alias sudo='sudo '
 
 #List all
-alias ll='ls -la --color=auto'
+alias ll='ls -lah --color=auto'
+
+#List in columns
+alias ls='ls -CF'
+
+#View mounted voumes
+alias mnt="mount | awk -F' ' '{ printf \"%s\t%s\n\",\$1,\$3; }' | column -t | egrep ^/dev/ | sort"
 
 #Return to previous folder
 alias back='cd "$OLDPWD"'
