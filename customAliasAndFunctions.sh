@@ -47,3 +47,9 @@ alias c='clear'
 #cd into $HOME
 
 cd "$HOME"
+
+
+###########
+# Functions
+###########
+
