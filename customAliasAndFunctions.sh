@@ -48,6 +48,9 @@ alias c='clear'
 
 cd "$HOME"
 
+#Podman docker alias
+alias docker='podman'
+
 
 ###########
 # Functions
